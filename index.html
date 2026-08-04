@@ -47,19 +47,34 @@ h1{font-size:28px;font-weight:800;margin:4px 0 6px;letter-spacing:-.5px}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:20px}
 .kpi{position:relative;border-radius:16px;padding:20px 18px 18px 22px;overflow:hidden;
      border:1px solid var(--line);
-     box-shadow:0 4px 14px rgba(16,24,40,.09), 0 1px 3px rgba(16,24,40,.06);
+     box-shadow:0 6px 18px rgba(16,24,40,.16), 0 2px 4px rgba(16,24,40,.10);
      transition:transform .16s, box-shadow .16s}
-.kpi:hover{transform:translateY(-3px);
-     box-shadow:0 12px 26px rgba(16,24,40,.14), 0 2px 6px rgba(16,24,40,.08)}
+.kpi:hover{transform:translateY(-4px);
+     box-shadow:0 16px 32px rgba(16,24,40,.24), 0 3px 8px rgba(16,24,40,.14)}
 .kpi::before{content:'';position:absolute;left:0;top:0;bottom:0;width:6px}
-.kpi.k-total{background:linear-gradient(160deg,#ffffff 0%,#eef2f7 100%)}
-.kpi.k-total::before{background:linear-gradient(180deg,#64748b,#334155)}
-.kpi.k-nosales{background:linear-gradient(160deg,#ffffff 0%,#fdeeee 100%)}
-.kpi.k-nosales::before{background:linear-gradient(180deg,#f87171,#b91c1c)}
-.kpi.k-undeliv{background:linear-gradient(160deg,#ffffff 0%,#eaf1fe 100%)}
-.kpi.k-undeliv::before{background:linear-gradient(180deg,#60a5fa,#1d4ed8)}
-.kpi.k-branch{background:linear-gradient(160deg,#ffffff 0%,#f2edfd 100%)}
-.kpi.k-branch::before{background:linear-gradient(180deg,#a78bfa,#6d28d9)}
+/* 컬러 채운 KPI 카드 — 흰 글씨 */
+.kpi.k-total{background:linear-gradient(145deg,#5b6b80 0%,#2f3d4f 100%);border-color:#2f3d4f}
+.kpi.k-nosales{background:linear-gradient(145deg,#e8483f 0%,#a51d18 100%);border-color:#a51d18}
+.kpi.k-undeliv{background:linear-gradient(145deg,#3576e8 0%,#17439f 100%);border-color:#17439f}
+.kpi.k-branch{background:linear-gradient(145deg,#8250e6 0%,#5a1fb0 100%);border-color:#5a1fb0}
+.kpi.k-total::before,.kpi.k-nosales::before,
+.kpi.k-undeliv::before,.kpi.k-branch::before{background:rgba(255,255,255,.55)}
+
+/* 카드 안 글씨는 전부 흰색 계열로 강제 */
+.kpi .lb{color:rgba(255,255,255,.90) !important;font-weight:700}
+.kpi .v{color:#ffffff !important;text-shadow:0 1px 2px rgba(0,0,0,.18)}
+.kpi .s{color:rgba(255,255,255,.94) !important}
+.kpi .d,
+.kpi .d.up,.kpi .d.down,.kpi .d.flat{
+  color:#ffffff !important;
+  display:inline-block;background:rgba(255,255,255,.24);
+  padding:4px 12px;border-radius:12px;margin-top:9px;font-weight:700}
+
+/* 카드 광택 */
+.kpi::after{content:'';position:absolute;top:-40%;right:-18%;
+        width:190px;height:190px;border-radius:50%;
+        background:radial-gradient(circle,rgba(255,255,255,.20) 0%,transparent 70%);
+        pointer-events:none}
 .kpi .lb{font-size:11.5px;color:var(--dim2);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
 .kpi .v{font-size:34px;font-weight:800;letter-spacing:-1px;line-height:1.1}
 .kpi .s{font-size:13px;color:var(--dim);margin-top:6px}
