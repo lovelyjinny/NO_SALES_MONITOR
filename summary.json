@@ -1,0 +1,81 @@
+{
+ "board": "no-sales",
+ "stage": 6,
+ "unit": "건",
+ "asof": "2026-11-13",
+ "generated": "2026-11-13 23:15:15",
+ "source": "무매출·미출고 분석 2026-11-13 회차 (직전 2026-11-09 대비)",
+ "key": [
+  {
+   "name": "무매출 스타일",
+   "value": 3660,
+   "unit": "건",
+   "text": "3,660건",
+   "delta": 290,
+   "better": "down"
+  },
+  {
+   "name": "미출고 스타일",
+   "value": 5543,
+   "unit": "건",
+   "text": "5,543건",
+   "delta": 1920,
+   "better": "down"
+  },
+  {
+   "name": "지점×스타일 무매출",
+   "value": 80899,
+   "unit": "건",
+   "text": "80,899건",
+   "delta": 5116,
+   "better": "down"
+  }
+ ],
+ "blocked": [
+  {
+   "what": "평촌2점(픽스키즈) 무매출 3,533건 · 직전 회차보다 ▲470건",
+   "size": 3533,
+   "unit": "건",
+   "size_text": "3,533건",
+   "delta": 470,
+   "better": "down",
+   "deadline": null
+  },
+  {
+   "what": "중앙로역점(그외) 무매출 2,605건 · 직전 회차보다 ▲449건",
+   "size": 2605,
+   "unit": "건",
+   "size_text": "2,605건",
+   "delta": 449,
+   "better": "down",
+   "deadline": null
+  },
+  {
+   "what": "창원점(픽스키즈) 무매출 3,539건 · 직전 회차보다 ▲410건",
+   "size": 3539,
+   "unit": "건",
+   "size_text": "3,539건",
+   "delta": 410,
+   "better": "down",
+   "deadline": null
+  },
+  {
+   "what": "송파점(픽스키즈) 무매출 4,127건 · 직전 회차보다 ▲389건",
+   "size": 4127,
+   "unit": "건",
+   "size_text": "4,127건",
+   "delta": 389,
+   "better": "down",
+   "deadline": null
+  },
+  {
+   "what": "일산점(픽스키즈) 무매출 3,987건 · 직전 회차보다 ▲387건",
+   "size": 3987,
+   "unit": "건",
+   "size_text": "3,987건",
+   "delta": 387,
+   "better": "down",
+   "deadline": null
+  }
+ ]
+}
