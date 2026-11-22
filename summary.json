@@ -2,16 +2,16 @@
  "board": "no-sales",
  "stage": 6,
  "unit": "건",
- "asof": "2026-11-20",
- "generated": "2026-11-20 11:49:08",
- "source": "무매출·미출고 분석 2026-11-20 회차 (직전 2026-11-16 대비)",
+ "asof": "2026-11-23",
+ "generated": "2026-11-23 08:44:43",
+ "source": "무매출·미출고 분석 2026-11-23 회차 (직전 2026-11-20 대비)",
  "key": [
   {
    "name": "무매출 스타일",
-   "value": 4337,
+   "value": 4577,
    "unit": "건",
-   "text": "4,337건",
-   "delta": 748,
+   "text": "4,577건",
+   "delta": 240,
    "better": "down"
   },
   {
@@ -19,61 +19,61 @@
    "value": 7884,
    "unit": "건",
    "text": "7,884건",
-   "delta": 2368,
+   "delta": 0,
    "better": "down"
   },
   {
    "name": "지점×스타일 무매출",
-   "value": 76455,
+   "value": 76537,
    "unit": "건",
-   "text": "76,455건",
-   "delta": -3418,
+   "text": "76,537건",
+   "delta": 82,
    "better": "down"
   }
  ],
  "blocked": [
   {
-   "what": "강서점(직영점) 무매출 5,908건 · 직전 회차보다 ▲420건",
-   "size": 5908,
+   "what": "송파점(직영점) 무매출 3,629건 · 직전 회차보다 ▲249건",
+   "size": 3629,
    "unit": "건",
-   "size_text": "5,908건",
-   "delta": 420,
+   "size_text": "3,629건",
+   "delta": 249,
    "better": "down",
    "deadline": null
   },
   {
-   "what": "강남점(직영점) 무매출 3,802건 · 직전 회차보다 ▲360건",
-   "size": 3802,
+   "what": "강서점(직영점) 무매출 5,966건 · 직전 회차보다 ▲58건",
+   "size": 5966,
    "unit": "건",
-   "size_text": "3,802건",
-   "delta": 360,
+   "size_text": "5,966건",
+   "delta": 58,
    "better": "down",
    "deadline": null
   },
   {
-   "what": "평촌2점(그외) 무매출 232건 · 직전 회차보다 ▲229건",
-   "size": 232,
+   "what": "분당점(직영점) 무매출 4,531건 · 직전 회차보다 ▲56건",
+   "size": 4531,
    "unit": "건",
-   "size_text": "232건",
-   "delta": 229,
+   "size_text": "4,531건",
+   "delta": 56,
    "better": "down",
    "deadline": null
   },
   {
-   "what": "부천점(그외) 무매출 229건 · 직전 회차보다 ▲199건",
-   "size": 229,
+   "what": "강남점(직영점) 무매출 3,820건 · 직전 회차보다 ▲18건",
+   "size": 3820,
    "unit": "건",
-   "size_text": "229건",
-   "delta": 199,
+   "size_text": "3,820건",
+   "delta": 18,
    "better": "down",
    "deadline": null
   },
   {
-   "what": "일산점(그외) 무매출 182건 · 직전 회차보다 ▲159건",
-   "size": 182,
+   "what": "수성점(그외) 무매출 822건 · 직전 회차보다 ▲10건",
+   "size": 822,
    "unit": "건",
-   "size_text": "182건",
-   "delta": 159,
+   "size_text": "822건",
+   "delta": 10,
    "better": "down",
    "deadline": null
   }
