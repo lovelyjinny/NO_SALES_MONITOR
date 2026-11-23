@@ -3,77 +3,59 @@
  "stage": 6,
  "unit": "건",
  "asof": "2026-11-23",
- "generated": "2026-11-23 08:44:43",
+ "generated": "2026-11-23 09:03:43",
  "source": "무매출·미출고 분석 2026-11-23 회차 (직전 2026-11-20 대비)",
  "key": [
   {
    "name": "무매출 스타일",
-   "value": 4577,
+   "value": 4221,
    "unit": "건",
-   "text": "4,577건",
-   "delta": 240,
+   "text": "4,221건",
+   "delta": -116,
    "better": "down"
   },
   {
    "name": "미출고 스타일",
-   "value": 7884,
+   "value": 7850,
    "unit": "건",
-   "text": "7,884건",
-   "delta": 0,
+   "text": "7,850건",
+   "delta": -34,
    "better": "down"
   },
   {
    "name": "지점×스타일 무매출",
-   "value": 76537,
+   "value": 74583,
    "unit": "건",
-   "text": "76,537건",
-   "delta": 82,
+   "text": "74,583건",
+   "delta": -1872,
    "better": "down"
   }
  ],
  "blocked": [
   {
-   "what": "송파점(직영점) 무매출 3,629건 · 직전 회차보다 ▲249건",
-   "size": 3629,
+   "what": "송파점(직영점) 무매출 3,476건 · 직전 회차보다 ▲96건",
+   "size": 3476,
    "unit": "건",
-   "size_text": "3,629건",
-   "delta": 249,
+   "size_text": "3,476건",
+   "delta": 96,
    "better": "down",
    "deadline": null
   },
   {
-   "what": "강서점(직영점) 무매출 5,966건 · 직전 회차보다 ▲58건",
-   "size": 5966,
+   "what": "수성점(그외) 무매출 817건 · 직전 회차보다 ▲5건",
+   "size": 817,
    "unit": "건",
-   "size_text": "5,966건",
-   "delta": 58,
+   "size_text": "817건",
+   "delta": 5,
    "better": "down",
    "deadline": null
   },
   {
-   "what": "분당점(직영점) 무매출 4,531건 · 직전 회차보다 ▲56건",
-   "size": 4531,
+   "what": "인천점(그외) 무매출 178건 · 직전 회차보다 ▲1건",
+   "size": 178,
    "unit": "건",
-   "size_text": "4,531건",
-   "delta": 56,
-   "better": "down",
-   "deadline": null
-  },
-  {
-   "what": "강남점(직영점) 무매출 3,820건 · 직전 회차보다 ▲18건",
-   "size": 3820,
-   "unit": "건",
-   "size_text": "3,820건",
-   "delta": 18,
-   "better": "down",
-   "deadline": null
-  },
-  {
-   "what": "수성점(그외) 무매출 822건 · 직전 회차보다 ▲10건",
-   "size": 822,
-   "unit": "건",
-   "size_text": "822건",
-   "delta": 10,
+   "size_text": "178건",
+   "delta": 1,
    "better": "down",
    "deadline": null
   }
